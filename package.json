@@ -1,0 +1,22 @@
+{
+  "name": "aws-node-http-api-project",
+  "version": "1.0.0",
+  "description": "AWS REST API in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "Serverless",
+    "Node.js"
+  ],
+  "author": "Nick Garbalau",
+  "license": "ISC",
+  "dependencies": {
+    "@middy/core": "^4.2.7",
+    "@middy/http-json-body-parser": "^4.2.7",
+    "aws-sdk": "^2.1342.0",
+    "uuid": "^9.0.0"
+  }
+}
